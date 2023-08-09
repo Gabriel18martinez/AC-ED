@@ -17,6 +17,7 @@ func ePrimo(n int) bool {
 		for i < n {
 			i++
 			if n % i == 0 {
+				fmt.Println(i, "é divisível por " , n)
 				continue
 			} else {
 				y = true
